@@ -27,67 +27,84 @@ static stop_source stopSource;
 static Control_A producerControl;
 static Control_GUI* guiControl = nullptr;
 
-void ConsumerLoop(stop_token st);
+void ConsumerLoop();
 
+// Producer DLL'i laadimine ja initsialiseerimine
 bool CW2_Initialize()
 {
-    DataProducer = LoadLibraryA("DataProducer.dll");
+    DataProducer = LoadLibraryA("DataProducer.dll"); // Laeb DataProducer.dll
 
+    // Kontroll kas DLL'i laadimine oli edukas
     if (!DataProducer)
+    {
         return false;
+    }
 
+    // Hangi DLL-ist funktsioonide aadressid
     Initialize = reinterpret_cast<InitializeFunc>(
-        GetProcAddress(DataProducer, "Initialize")
-        );
+        GetProcAddress(DataProducer, "Initialize"));
 
     Start = reinterpret_cast<StartFunc>(
-        GetProcAddress(DataProducer, "Start")
-        );
+        GetProcAddress(DataProducer, "Start"));
 
+    // Kontroll kas funktsioonid leiti
     if (!Initialize || !Start)
+    {
+        FreeLibrary(DataProducer); // Vabastab DLL'i
+        DataProducer = nullptr;
         return false;
+    }
 
     try
     {
-        Initialize();
+        Initialize(); // DLL'i initsialiseerimine
     }
     catch (...)
     {
+        FreeLibrary(DataProducer);
+        DataProducer = nullptr;
+        Initialize = nullptr;
+        Start = nullptr;
         return false;
     }
 
     return true;
 }
 
+// Käivitab consumer ja produser thread'id
 bool CW2_Start(Control_GUI* gui)
 {
     try
     {
         if (!Start || !gui)
+        {
             return false;
+        }
 
         guiControl = gui;
 
         {
-            lock_guard<mutex> lock(guiControl->mx);
+            lock_guard<mutex> lock(guiControl->mx); // Loob luku ja lukustab mutexi
             guiControl->stop = false;
+
+            // Tühjendab väljundpuhvri
             guiControl->buffer.str("");
             guiControl->buffer.clear();
         }
 
-        stopSource = stop_source();
-        stop_token token = stopSource.get_token();
+        stopSource = stop_source(); // Loob stop_source objekti thread'ide peatamiseks
+        producerControl.stop = stopSource.get_token(); // Salvestab stop tokeni control objekti sisse
 
-        producerControl.stop = token;
-
+        // Producer thread
         producerThread = jthread([]()
             {
-                Start('A', &producerControl);
+                Start('A', &producerControl); // Käivitab DLL-is item'ite generaatori
             });
 
-        consumerThread = jthread([token]()
+        // Consumer thread
+        consumerThread = jthread([]()
             {
-                ConsumerLoop(token);
+                ConsumerLoop();
             });
 
         return true;
@@ -98,33 +115,45 @@ bool CW2_Start(Control_GUI* gui)
     }
 }
 
+// Peatab threadid
 void CW2_Stop()
 {
-    stopSource.request_stop();
+    stopSource.request_stop(); // Saadab stop-signaali
 
-    producerControl.cva.notify_all();
+    // Saadab välja teavitused, et äratada threadid ooteseisundist
+    producerControl.cva.notify_all(); 
 
     if (guiControl)
     {
         {
-            lock_guard<mutex> lock(guiControl->mx);
+            lock_guard<mutex> lock(guiControl->mx); // Loob luku ja lukustab mutexi
             guiControl->stop = true;
         }
 
+        // Teavitab GUI's threadi 
         guiControl->cv.notify_all();
     }
 
+    // Ootab producer thread'i lõppu
     if (producerThread.joinable())
+    {
         producerThread.join();
+    }
 
+    // Ootab consumer thread'i lõppu
     if (consumerThread.joinable())
+    {
         consumerThread.join();
+    }
 }
 
+// Sulgeb süsteemi täielikult
 void CW2_Shutdown()
 {
+    // Peata threadid
     CW2_Stop();
 
+    // Vabastab DLL'i
     if (DataProducer)
     {
         FreeLibrary(DataProducer);
@@ -135,26 +164,30 @@ void CW2_Shutdown()
     Start = nullptr;
 }
 
-void ConsumerLoop(stop_token st)
+// Consumer thread'i põhitsükkel
+void ConsumerLoop()
 {
-    while (!st.stop_requested())
+    // Töötab seni kuni peatmaimis käsku pole saadetud
+    while (!producerControl.stop.stop_requested())
     {
+        // Loob luku ja lukustab mutexi
         unique_lock<mutex> lock(producerControl.mx);
 
-        producerControl.cva.wait(lock, st, [&]()
+        // Ootab kuni järjekirda lisatakse elemente
+        // või programm peatatatakse
+        producerControl.cva.wait(lock, producerControl.stop, [&]()
             {
-                return !producerControl.Items.empty() || st.stop_requested();
+                return !producerControl.Items.empty();
             });
 
-        if (st.stop_requested())
-            break;
-
+        // Töötleb kõik järjekorras olevad elemendid
         while (!producerControl.Items.empty())
         {
+            // Võtab ja eemaldab esimese elemendi järjekorrast
             Item* item = producerControl.Items.front();
             producerControl.Items.pop();
 
-            lock.unlock();
+            lock.unlock(); // Vabastab mutexi
 
             Entry entry = *item;
 
@@ -162,17 +195,18 @@ void ConsumerLoop(stop_token st)
             {
                 {
                     lock_guard<mutex> guiLock(guiControl->mx);
-                    guiControl->buffer << entry << "\n";
+                    guiControl->buffer << entry << "\n"; // Lisa kirje GUI puhvrisse
                 }
 
-                guiControl->cv.notify_one();
+                guiControl->cv.notify_one(); // Saadab teate, et puhvirs on andmed
             }
 
             delete item;
 
-            lock.lock();
+            lock.lock(); // lukustab mutexi
         }
 
+        // Saadab teate, et järjekord on tühi
         producerControl.cva.notify_one();
     }
 }

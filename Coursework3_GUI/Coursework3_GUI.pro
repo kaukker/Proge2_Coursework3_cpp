@@ -2,7 +2,15 @@ QT += widgets
 
 CONFIG += c++17
 
-LIBS += -L$$OUT_PWD/debug -lCoursework2DLL
+win32 {
+    DLL_DIR = $$PWD/../Coursework2dll/x64/Debug
+
+    LIBS += -L$$DLL_DIR -lCoursework2dll
+
+    QMAKE_POST_LINK += $$QMAKE_COPY $$quote($$DLL_DIR/Coursework2dll.dll) $$quote($$OUT_PWD/) $$escape_expand(\n\t)
+}
+
+#LIBS += -L$$OUT_PWD/debug -lCoursework2DLL
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.

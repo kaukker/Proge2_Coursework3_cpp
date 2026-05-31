@@ -1,2 +1,8 @@
-﻿  Coursework2dll.cpp
-  Coursework2dll.vcxproj -> C:\Projects\Proge IV\Coursework2dll\x64\Debug\Coursework2dll.dll
+﻿  pch.cpp
+  Coursework2dll.cpp
+  dllmain.cpp
+  Entry.cpp
+  GPS.cpp
+  Generating Code...
+     Creating library C:\Projects\Proge IV\Coursework3\Coursework2dll\x64\Debug\Coursework2dll.lib and object C:\Projects\Proge IV\Coursework3\Coursework2dll\x64\Debug\Coursework2dll.exp
+  Coursework2dll.vcxproj -> C:\Projects\Proge IV\Coursework3\Coursework2dll\x64\Debug\Coursework2dll.dll

@@ -3,52 +3,12 @@
   "WorkspaceRootPath": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\GPS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\GPS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Entry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\Entry.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Coursework2dll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\Coursework2dll.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Coursework2dll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\Coursework2dll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\DataProducer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\DataProducer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Control.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\Control.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\GPS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\GPS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Entry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\Entry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B3A573E1-A39D-4786-86F0-8AA7FA6A69DC}|Coursework2dll\\Coursework2dll.vcxproj|solutionrelative:Coursework2dll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,153 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Item.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Item.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\Item.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Item.h",
-              "RelativeToolTip": "Coursework2dll\\Item.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:29:15.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GPS.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\GPS.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\GPS.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\GPS.h",
-              "RelativeToolTip": "Coursework2dll\\GPS.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:29:10.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "framework.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\framework.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\framework.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\framework.h",
-              "RelativeToolTip": "Coursework2dll\\framework.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:29:09.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Entry.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Entry.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\Entry.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Entry.h",
-              "RelativeToolTip": "Coursework2dll\\Entry.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:29:07.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GPS.cpp",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\GPS.cpp",
-              "RelativeDocumentMoniker": "Coursework2dll\\GPS.cpp",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\GPS.cpp",
-              "RelativeToolTip": "Coursework2dll\\GPS.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-30T21:28:38.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Entry.cpp",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Entry.cpp",
-              "RelativeDocumentMoniker": "Coursework2dll\\Entry.cpp",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Entry.cpp",
-              "RelativeToolTip": "Coursework2dll\\Entry.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-30T21:28:32.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "dllmain.cpp",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\dllmain.cpp",
-              "RelativeDocumentMoniker": "Coursework2dll\\dllmain.cpp",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\dllmain.cpp",
-              "RelativeToolTip": "Coursework2dll\\dllmain.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-30T21:28:26.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DataProducer.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\DataProducer.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\DataProducer.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\DataProducer.h",
-              "RelativeToolTip": "Coursework2dll\\DataProducer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:28:15.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Control.h",
               "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Control.h",
               "RelativeDocumentMoniker": "Coursework2dll\\Control.h",
               "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Control.h",
               "RelativeToolTip": "Coursework2dll\\Control.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:22:37.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "pch.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\pch.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\pch.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\pch.h",
-              "RelativeToolTip": "Coursework2dll\\pch.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:22:32.585Z",
+              "WhenOpened": "2026-05-30T22:42:02.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Coursework2dll.h",
-              "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Coursework2dll.h",
-              "RelativeDocumentMoniker": "Coursework2dll\\Coursework2dll.h",
-              "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Coursework2dll.h",
-              "RelativeToolTip": "Coursework2dll\\Coursework2dll.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-30T21:21:10.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Coursework2dll.cpp",
               "DocumentMoniker": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Coursework2dll.cpp",
               "RelativeDocumentMoniker": "Coursework2dll\\Coursework2dll.cpp",
               "ToolTip": "C:\\Projects\\Proge IV\\Coursework3\\Coursework2dll\\Coursework2dll\\Coursework2dll.cpp",
               "RelativeToolTip": "Coursework2dll\\Coursework2dll.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-30T19:15:02.796Z",
+              "WhenOpened": "2026-05-30T22:31:45.111Z",
               "EditorCaption": ""
             }
           ]

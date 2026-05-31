@@ -4,7 +4,6 @@
 #include <condition_variable>
 #include <queue>
 #include <sstream>
-#include <atomic>
 
 #include "Item.h"
 
